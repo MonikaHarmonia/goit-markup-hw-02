@@ -10,9 +10,10 @@
     background-color: var(--main-background-color)
 }
 
-.position-of-tabs{
+.navigation-of-tabs{
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -26,6 +27,9 @@
     margin-bottom: 25px;
     cursor: pointer;
     color: #212121;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .color-Web{
@@ -169,6 +173,10 @@ font-family:'Roboto'
     text-align: left;
     padding-top: 94px;
     padding-bottom: 94px;
+}
+
+.spacing{
+margin-right:30px;
 }
 
 .What-we-do-title{
@@ -315,7 +323,7 @@ width: 114px
 width: 91px
 }
 
-.maketing{
+.marketing{
 width: 121px
 }
 
@@ -375,7 +383,10 @@ color:#ff4040
 .logo-in-footer{
     line-height: 1,174;
     margin-top: 60px;
-    color:#ffffff
+    color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .contacts-in-footer{
